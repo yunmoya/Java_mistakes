@@ -1,5 +1,5 @@
 
-public class Jm_2 extends Exception{
+public class Jm_2 {
 	public void exam() {
 		int sub[] = new int[3];
 		try {
@@ -8,6 +8,10 @@ public class Jm_2 extends Exception{
 			{
 				sub[i]=i;
 			}
+//			for(int i = 0;i <= 3;i ++) //exception
+//			{
+//				sub[i]=i;
+//			}
 		}catch(ArrayIndexOutOfBoundsException e)
 		{
 			System.out.println("test2");
